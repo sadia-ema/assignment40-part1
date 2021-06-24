@@ -1,0 +1,155 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+.logo {
+    margin-top: 23px;
+    margin-left: 37px;
+}
+.logo h4 span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 21px;
+    color: #6AB2FD;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 19px;
+   position: relative;
+}
+.menu ul li a {
+    text-decoration: none;
+    line-height: 72px;
+    color: black;
+}
+.menu ul li a:hover{
+
+}
+
+.menu ul li ul{
+position: absolute;
+}
+.about-info {
+    margin-top: 159px;
+}
+.about-us {
+    background: #F9F9FF;
+}
+.about-us h1{
+    color: #353A40;
+}
+.about-us p{
+    color: #818A96;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #8490FF;
+    border-color: #8490FF;
+}
+.blog-img img {
+    max-width: 100%;
+}
+.blog-img {
+    border: 1px solid #9e9e9e2b;
+    border-radius: 5px;
+}
+.blog-content {
+    margin-top: 65px;
+    margin-left: 50px;
+}
+
+.number-section {
+    background: #8490FF;
+}
+
+
+ /* pricing */
+ .pricing-section{
+    background: #F7F9FF;
+}
+
+.pricing-item{
+    background: white;
+    padding: 63px;
+    box-shadow: 1px 0px 11.5px #8080808f;
+}
+.pricing-item h1{
+    height: 100px;
+    width: 100px;
+    background: rgba(240, 240, 240, 0.801);
+    display: inline-block;
+}
+.pricing-item ul {
+ padding-left: 0;
+}
+.pricing-item ul li{
+    list-style: none;
+    line-height: 63px;
+    font-size: 16px;
+    }
+
+.pricing-button{
+margin-top: 55px;
+}
+
+/* profile */
+.profile-section{
+   padding: 100px 0; 
+}
+.profile-item {
+    box-shadow: 1px 0px 7px rgba(143, 140, 140, 0.829);
+    padding: 60px 10px 40px 10px;
+}
+
+.profile-item .profile-button {
+    border: none;
+    color: black;
+    box-shadow:  1px 0px 7px grey;
+    margin-top: 13px;
+}
+.profile-img img {
+    width: 100px;
+    position: relative;
+    bottom: -36px;
+    right: -16px;
+}
+.get-access {
+    box-shadow: 3px 0px 7px #8490ffc2;
+    border: 2px solid #8490FF;
+}
+
+.content-section    {
+    background: #F9F9FF;
+}
+.content-about-writing {
+    margin-top: 148px;
+    margin-left: 52px;
+}
+.form-button-contact{
+    background: #17A2B8;
+    color: white;
+}
+.menu ul li{
+    position: relative;
+}
+.menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #8490FF;
+    width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: none;
+    transition: .4s;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+.menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+
+}
